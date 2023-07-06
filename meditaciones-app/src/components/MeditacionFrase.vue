@@ -6,7 +6,7 @@
       fab
       dark
       small
-      color="primary"
+    
       @click="asignarFrase"
       > <v-icon dark>
         mdi-meditation
@@ -31,7 +31,7 @@
         "El valor no está en evitar el dolor, sino en enfrentarlo con sabiduría y fortaleza",
         "La felicidad no depende de lo que tienes, sino de cómo piensas y actúas",
         "Acepta lo que no puedes cambiar y trabaja en mejorar lo que sí puedes",
-        "No te aferres a las cosas materiales, encuentra tu verdadero valor en tu carácter y acciones",
+        "¿Quién soy yo en medio de la inmensidad del universo?",
         "La virtud es la única verdadera riqueza y el único camino hacia la paz interior",
         "No temas a la adversidad, utilízala como una oportunidad para crecer y fortalecerte",
         "El presente es todo lo que realmente tienes, vívelo plenamente y con gratitud"

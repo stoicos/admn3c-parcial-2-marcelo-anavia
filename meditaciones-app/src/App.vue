@@ -3,10 +3,11 @@
 <nav>
 
 <v-app-bar
-  color="primary"
+  color="black"
   dense
   dark
   height=70px
+
 >
   <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
 
@@ -79,8 +80,8 @@ export default {
     drawer: false,
     items: [
           { title: 'Escribir', icon: 'mdi-plus-box', link: "/escribir" },
-          { title: 'Mis meditaciones', icon: 'mdi-list-box', link: "/lista" },
-          { title: 'Estilos', icon: 'mdi-palette-swatch-variant', link: "/estilos" },
+          { title: 'Mis meditaciones', icon: 'mdi-list-box', link: "/quotes" },
+          { title: 'Acerca de', icon: 'mdi-account-box', link: "/about" },
         ],
         right: null,
   }),
