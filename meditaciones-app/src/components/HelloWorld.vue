@@ -1,4 +1,5 @@
 <template>
+<div class="black">
   <div class="contenedor">
     <img src="../assets/phi.png" alt="logo de la filosofía">
     <h1>Bienvenido a Meditaciones</h1>
@@ -8,6 +9,7 @@
     to="/escribir"
     >Comenzar</v-btn>
   </div>
+</div>
 </template>
 
 <script>
@@ -21,12 +23,16 @@
 </script>
 
 <style scoped>
+.black{
+  height: 100vh;
+  background-color: black;
+}
 .contenedor{
   background-image: url('../assets/wall.jpg');
-  height: 100vh;
+
   text-align: center;
   color: white;
-
+  padding-bottom: 4rem;
 }
 .contenedor img{
   display: block;
@@ -42,5 +48,6 @@ h1 {
 }
 p{
   text-shadow: 2px 2px 8px #000000;
+
 }
 </style>

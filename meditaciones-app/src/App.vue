@@ -80,7 +80,7 @@ export default {
     drawer: false,
     items: [
           { title: 'Escribir', icon: 'mdi-plus-box', link: "/escribir" },
-          { title: 'Mis meditaciones', icon: 'mdi-list-box', link: "/quotes" },
+          { title: 'Mis meditaciones', icon: 'mdi-plus-box', link: "/quote" },
           { title: 'Acerca de', icon: 'mdi-account-box', link: "/about" },
         ],
         right: null,

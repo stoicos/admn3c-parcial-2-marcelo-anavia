@@ -24,10 +24,11 @@ const routes = [
     component: AboutView
   },
   {
-    path: '/quotes',
-    name: 'quotes',
+    path: '/quote',
+    name: 'quote',
     component: QuoteView
   },
+
 ]
 
 const router = new VueRouter({
